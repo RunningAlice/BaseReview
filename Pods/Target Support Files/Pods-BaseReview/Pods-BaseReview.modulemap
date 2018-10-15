@@ -1,0 +1,6 @@
+module Pods_BaseReview {
+  umbrella header "Pods-BaseReview-umbrella.h"
+
+  export *
+  module * { export * }
+}
