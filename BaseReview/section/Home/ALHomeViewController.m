@@ -92,7 +92,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     NSDictionary *dic = [self.dataArr objectAtIndex:section];
-    NSString *keyStr = [[dic allKeys]objectAtIndex:0];
+    NSString *keyStr = [[dic allKeys] objectAtIndex:0];
     NSArray *arr = [dic objectForKey:keyStr];
     return arr.count;
 }
